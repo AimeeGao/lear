@@ -42,11 +42,6 @@ objects:
                   - -c
                   - cd /opt/app-root; ./run.sh
                 env:
-                  - name: COLIN_URL
-                    valueFrom:
-                      secretKeyRef:
-                        name: ${NAME}-${TAG}-secret
-                        key: COLIN_URL
                   - name: LEGAL_API_URL
                     valueFrom:
                       secretKeyRef:
