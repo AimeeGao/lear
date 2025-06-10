@@ -5402,6 +5402,7 @@ components:
             courtOrder:
               $ref: '#/components/schemas/Court_order'
             custodialOffice:
+              description: 'Corporations required custodial office when applying for voluntary dissolution.'
               $ref: '#/components/schemas/Office'
             affidavitFileKey:
               type: string
